@@ -3,8 +3,8 @@ import { connect } from 'puppeteer-real-browser';
 
 (async () => {
     
-    const nick = "Skarzyll"
-    const password = "danielbd123"
+    const nick = ""
+    const password = ""
 
     // Launch the browser and open a new blank page
     const { page, browser } = await connect({
